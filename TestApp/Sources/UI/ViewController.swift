@@ -39,7 +39,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         getIformation()
-     
     }
 
     // MARK: PrivateFunctions
@@ -109,10 +108,6 @@ class ViewController: UIViewController {
     
 }
 
-extension ViewController: UICollectionViewDelegate {
-    
-}
-
 extension ViewController: UICollectionViewDataSource {
     
     // MARK:  UICollectionViewDataSource
@@ -157,7 +152,6 @@ extension ViewController: UICollectionViewDataSource {
         default:
             break
         }
-        
 
         return cell ?? UICollectionViewCell()
     }
