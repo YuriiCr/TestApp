@@ -75,7 +75,6 @@ class InternetService {
                     persons.append(person)
                 }
                 block(count, persons)
-
             }
             
         }
